@@ -1,8 +1,8 @@
 // Mixins Here
-.btn {
+.btn(@btn-bg-color, @porcelain) {
     font-size: 15px;
     font-weight: bold;
-    width: 25%;
+    width: 30%;
     height: 4vh;
     border-radius: 5px;
     background-color: @btn-bg-color;
@@ -10,4 +10,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.mobile-resize(){
+    width: 100%;
+    margin: 1%;
 }
