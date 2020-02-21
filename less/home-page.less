@@ -80,6 +80,10 @@
 
       .btn {
         .btn(@btn-bg-color, @porcelain);
+        &:hover {
+          background-color: @porcelain;
+          color: @btn-bg-color;
+        }
         @media @phone {
           width: 95%;
           height: 6vh;
