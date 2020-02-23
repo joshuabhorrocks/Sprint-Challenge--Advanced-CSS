@@ -1,1 +1,28 @@
 // Mixins Here
+.btn(@btn-bg-color, @porcelain) {
+    font-size: 15px;
+    font-weight: bold;
+    width: 30%;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: @btn-bg-color;
+    color: @porcelain;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-resize(){
+    width: 100%;
+    margin: 1%;
+}
+.img() {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    padding: 2%;
+}
+.hr() {
+    margin: 3%;
+    width: 100%;
+    color: @shuttle-gray;
+}
